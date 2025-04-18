@@ -1,0 +1,90 @@
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 0;
+    direction: rtl;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 30px;
+  }
+  
+  .header {
+    background-color: #1ee3c9;
+    color: white;
+    padding: 20px 0;
+  }
+  
+  .header h1 {
+    margin: 0;
+    font-size: 2em;
+  }
+  
+  .header p {
+    margin: 10px 0;
+  }
+  
+  select {
+    padding: 10px;
+    font-size: 16px;
+    margin-top: 15px;
+    width: 200px;
+  }
+  
+  .products-container {
+    padding: 20px;
+  }
+  
+  .products {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .product-card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 220px;
+    padding: 15px;
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .product-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .product-card img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    margin-bottom: 10px;
+  }
+  
+  .product-card h3 {
+    font-size: 16px;
+    height: 48px;
+    overflow: hidden;
+    margin: 10px 0;
+  }
+  
+  .product-card p {
+    color: #28a745;
+    font-weight: bold;
+  }
+  
+  .footer {
+    background-color: #4a69bd;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+  
